@@ -1,6 +1,7 @@
 <template>
 <div>
     <div class="my-post-container d-flex align-items-center flex-column">
+        <router-link :to="{name: 'home'}">Home</router-link>
 
         <Post v-for="(post, index) in posts" :key="index + 'post'" :post="post" />
         <nav >

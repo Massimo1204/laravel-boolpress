@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ asset('js/admin.js') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -17,7 +17,8 @@
     <title>Presspress Guest Home</title>
 </head>
 <body>
-    <h1 class="text-center border-info border-bottom pb-4">Home</h1>
+    @include('partials.header')
+
     <div id="root"></div>
 
     <script src="{{ asset('js/front.js') }}" defer></script>
