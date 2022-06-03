@@ -17,7 +17,7 @@
     <title>Presspress Guest Home</title>
 </head>
 <body>
-    @include('partials.header')
+    {{-- @include('partials.header') --}}
 
     <div id="root"></div>
 

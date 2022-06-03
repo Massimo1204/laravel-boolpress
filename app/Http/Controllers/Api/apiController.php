@@ -9,12 +9,7 @@ use App\Models\Post;
 class apiController extends Controller
 {
     public function index(){
-        $posts = Post::paginate(5);
-        
-        foreach ($posts as $key => $post) {
-            $post->user;
-            $post->categories;
-        };
+        $posts = Post::with(['user', 'categories'])->paginate(5);
 
         return response()->json($posts);
     }

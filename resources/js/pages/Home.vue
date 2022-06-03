@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1 class="text-center text-secondary">Welcome to Presspress</h1>
+        <h1 class="text-center text-secondary mt-5">Welcome to Presspress</h1>
     </div>
 </template>
 
