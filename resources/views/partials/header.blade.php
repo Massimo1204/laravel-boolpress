@@ -1,5 +1,4 @@
 <header>
-<div id="app">
     <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
         <div class="container">
             <a class="navbar-brand mr-5" href="{{ route('admin.posts.index') }}">
@@ -60,5 +59,4 @@
             </div>
         </div>
     </nav>
-</div>
 </header>

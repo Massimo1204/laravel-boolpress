@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <h1 class="text-center text-secondary mt-5">Welcome to Presspress</h1>
+    <div class="d-flex align-items-center justify-content-center">
+        <h1 class="text-secondary mt-5">Welcome to Presspress</h1>
     </div>
 </template>
 
@@ -10,6 +10,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="scss" scoped>
+div{
+    height: 70vh;
+}
 </style>

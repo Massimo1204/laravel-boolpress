@@ -3,7 +3,7 @@
         <h1 class="text-secondary text-center mt-5">
             Special Thanks to:
         </h1>
-        <ul>
+        <ul class="text-center">
             <li>
                 Giggi Giggino
             </li>

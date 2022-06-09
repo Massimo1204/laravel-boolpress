@@ -17,9 +17,14 @@
     <title>Presspress Guest Home</title>
 </head>
 <body>
-    {{-- @include('partials.header') --}}
+    
+    @auth
+        @include('partials.header')
+    @endauth
+    
+    <div id="root">
 
-    <div id="root"></div>
+    </div>
 
     <script src="{{ asset('js/front.js') }}" defer></script>
 </body>
